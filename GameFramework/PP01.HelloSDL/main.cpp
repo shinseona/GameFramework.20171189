@@ -13,6 +13,7 @@ int main(int argc, char* args[])
 			SDL_WINDOWPOS_CENTERED,
 			SDL_WINDOWPOS_CENTERED,
 			640, 480, SDL_WINDOW_SHOWN);
+
 		if (g_pWindow != 0) {
 			g_pRenderer = SDL_CreateRenderer(g_pWindow, -1, 0);
 		}
